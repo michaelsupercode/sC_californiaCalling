@@ -1,0 +1,715 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: WorkSans, LarishNeue;
+  /*https://stackoverflow.com/questions/41412143/unwanted-whitespace-created-by-css-transition-animation*/
+  overflow-x: hidden;
+}
+
+div img {
+  object-fit: cover;
+}
+
+body main {
+  overflow-x: hidden;
+  display: grid;
+}
+body main h1 {
+  display: none;
+}
+
+.art1 {
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  /* The first p on the top  */
+}
+.art1 .divCenteredLine {
+  height: 22vh;
+  width: 1px;
+  background-color: dimgrey;
+  margin-left: auto;
+  margin-right: auto;
+}
+.art1 p:nth-child(2) {
+  margin-top: 6vh;
+}
+.art1 p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.art1 h2 {
+  font-size: 4.75rem;
+  letter-spacing: 2px;
+}
+.art1 h2:nth-child(4) {
+  color: black;
+  -webkit-text-stroke: 1.5px #fff;
+}
+.art1 div.divBottomArt1 {
+  margin-top: 12vh;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5.75vw;
+  margin-right: 5.75vw;
+}
+.art1 .btnRsvp {
+  color: #fff;
+  background-color: black;
+  padding: 14px 36px;
+  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.art1 .divArt1Placeholder {
+  height: 10vh;
+}
+
+.art2 {
+  background-color: black;
+  color: #fff;
+}
+.art2 .firstDivArt2 {
+  width: 66%;
+  margin-left: 6vw;
+}
+.art2 .firstDivArt2 .p1Art2 {
+  font-size: 4.75rem;
+}
+.art2 #idP2Art2 {
+  margin-top: 8vh;
+}
+.art2 .p2Art2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-left: 6vw;
+}
+.art2 .p3Number {
+  font-size: 4.75rem;
+  margin-left: 6vw;
+}
+.art2 div.rightSecondDivArt2 > img {
+  height: 65vh;
+  margin-right: 10vw;
+}
+.art2 .secondDivArt2 {
+  display: flex;
+  justify-content: space-between;
+}
+.art2 .divArt2Placeholder {
+  height: 8vh;
+}
+
+.art3 .div1Art3 {
+  background-image: linear-gradient(180deg, black 38%, #ffffff 17.29% 100%);
+  display: flex;
+  justify-content: flex-end;
+}
+.art3 .imgAction1Art3 {
+  height: 20vh;
+  margin-right: 10vw;
+}
+
+.art4 {
+  /*position: absolute;*/
+}
+.art4 .div1Art4 {
+  display: flex;
+  justify-content: flex-start;
+}
+.art4 .imgAction1Art4 {
+  height: 16vh;
+  margin-left: 3vw;
+}
+
+.art5 {
+  margin-top: 5vh;
+}
+.art5 .div1Art5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.art5 .div1Art5 div {
+  width: 45%;
+}
+.art5 .div1Art5 h2 {
+  font-size: 4rem;
+  width: 310px;
+}
+.art5 .div1Art5 p {
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+  line-height: 2.8vh;
+}
+
+.art6 {
+  margin-top: -6vh;
+}
+.art6 .div1Art6 {
+  display: flex;
+  justify-content: flex-end;
+}
+.art6 .imgAction1Art6 {
+  height: 17vh;
+}
+
+.art7 .div1Art7 {
+  display: flex;
+  justify-content: flex-start;
+}
+.art7 .imgAction1Art7 {
+  height: 17vh;
+  margin-left: 13.3vw;
+}
+
+.art8 .div1Art8 {
+  display: flex;
+  justify-content: flex-end;
+}
+.art8 .imgAction1Art8 {
+  height: 19vh;
+  margin-right: 13vw;
+}
+
+.art9 .div1Art9 {
+  display: flex;
+  justify-content: flex-start;
+}
+.art9 .imgAction1Art9 {
+  height: 19vh;
+}
+.art9 .pArt9 {
+  width: 27%;
+  margin-left: 10%;
+  margin-top: 2vh;
+  font-family: "Roboto", sans-serif;
+}
+
+.art10 .div1Art10 {
+  background-image: linear-gradient(180deg, #ffffff 17.29% 75%, black 38%);
+  display: flex;
+  justify-content: center;
+}
+.art10 .imgAction1Art10 {
+  height: 28vh;
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+
+.art11 {
+  background-color: black;
+  color: #fff;
+}
+.art11 .div1Art11 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  padding-top: 8vh;
+}
+.art11 .div1Art11 .leftDiv1Art11 h2 {
+  font-size: 4.75rem;
+  width: 34.82vw;
+}
+.art11 .div1Art11 .rightDiv1Art11 {
+  width: 45%;
+}
+.art11 .div1Art11 .rightDiv1Art11 .topPArt11 {
+  font-size: 2rem;
+  margin-top: 5vh;
+}
+.art11 .div1Art11 .rightDiv1Art11 .bottomPArt11 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2vh;
+}
+
+.art12 {
+  background-image: linear-gradient(180deg, black 78%, #ffffff 17.29% 100%);
+  padding-top: 17vh;
+}
+.art12 .div1Art12 {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+.art12 .div1Art12 .imgGoldenBear {
+  height: 82vh;
+}
+.art12 .div1Art12 .imgGoldenBear2 {
+  height: 55vh;
+  align-self: center;
+  margin-left: -7vw;
+  margin-top: 10vh;
+  z-index: 1;
+}
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.art12 .div1Art12 .imgCalifornication {
+  height: 45vh;
+  align-self: center;
+  position: absolute;
+  margin-left: 61vw;
+  margin-top: 61vh;
+  animation-name: rotate;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.pArtNr {
+  font-family: "Roboto", sans-serif;
+}
+
+.art13 {
+  padding-top: 10vh;
+}
+.art13 .div1Art13 {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+  padding-top: 8vh;
+}
+.art13 .div1Art13 .leftDiv1Art13 h2 {
+  font-size: 4.75rem;
+  width: 32.1vw;
+}
+.art13 .div1Art13 .rightDiv1Art13 {
+  width: 45%;
+}
+.art13 .div1Art13 .rightDiv1Art13 .topPArt13 {
+  font-size: 2rem;
+  margin-top: 5vh;
+  /*width: 109%;*/
+}
+.art13 .div1Art13 .rightDiv1Art13 .bottomPArt13 {
+  font-family: "Roboto", sans-serif;
+  margin-top: 2vh;
+}
+
+.art14 {
+  margin-top: 12vh;
+}
+.art14 .div1Art14 {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+}
+.art14 .div1Art14 .imgPoppyBear {
+  height: 50vh;
+  align-self: center;
+  margin-right: -51px;
+  z-index: 1;
+}
+.art14 .div1Art14 .imgRoseBear {
+  height: 82vh;
+}
+
+.artPlaceHolder {
+  z-index: 100;
+  background-image: url(../img/Solid_white.svg);
+  background-repeat: repeat-y;
+  height: 14vh;
+  background-size: cover;
+}
+
+.art15 {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  /* position: absolute; */
+  z-index: -1;
+  flex-direction: column;
+  height: 65vh;
+  width: 100%;
+  /* https://www.quora.com/Why-do-I-have-random-white-space-appearing-to-the-right-of-the-web-page-outside-of-body-tags */
+  /* To fix the problem with white space due to the animation banner */
+  overflow: hidden;
+}
+@keyframes rightToLeft {
+  /*
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(-100px);
+  }*/
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(20%);
+  }
+}
+.art15 .div1Art15 {
+  display: flex;
+  font-size: 4rem;
+  background-color: white;
+  color: black;
+  transform: rotate(45deg);
+  position: absolute;
+  height: 100px;
+  margin-left: 47vw;
+  margin-top: 21vh;
+  width: 855px;
+}
+.art15 .div1Art15 h2 {
+  overflow-y: hidden;
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+  z-index: -100;
+  font-weight: bold;
+  color: #fbfbfb;
+  animation-name: rightToLeft;
+
+  animation-duration: 4.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  /* animation: rotatingCircle 10s infinite linear;*/
+  animation: rightToLeft 3s linear infinite alternate;
+}
+.art15 .div1Art15 h2 .hArt15Black {
+  color: black;
+}
+.art15 .div2Art15 {
+  width: 40vw;
+  margin-top: 15vh;
+  margin-left: 10vh;
+}
+.art15 .div2Art15 .p1Div2Art15 {
+  font-family: "Roboto", sans-serif;
+}
+.art15 .div2Art15 .p2Div2Art15 {
+  font-size: 2rem;
+  margin-top: 3vh;
+}
+.art15 .div2Art15 .btnRsvp {
+  color: #fff;
+  background-color: black;
+  padding: 14px 36px;
+  font-family: roboto;
+  font-family: "Roboto", sans-serif;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+
+.art15 .div2Art15 .btnRsvp:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.btnRsvp:hover {
+  background-color: #fff;
+  color: black;
+}
+
+footer {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: WorkSans, LarishNeue;
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 4vh;*/
+}
+footer .divLeftFooter {
+  margin-top: 12vh;
+  margin-left: 10vh;
+}
+footer .divLeftFooter .secondDivLeftFooter,
+footer .divLeftFooter .thirdDivLeftFooter {
+  margin-top: 1vh;
+}
+footer .divLeftFooter img {
+  height: 3vh;
+}
+footer .divRightFooter {
+  z-index: 1;
+  margin-top: 12vh;
+  margin-right: 10vh;
+  display: flex;
+}
+footer .divRightFooter .firstDivRightFooter img {
+  height: 4.5vh;
+}
+footer .divRightFooter .secondDivRightFooter img {
+  height: 2.5vh;
+  margin-top: 2vh;
+  margin-left: 1vw;
+}
+footer .divFooter {
+  display: flex;
+  justify-content: space-between;
+  /*margin-top: 76vh; */
+  /* height: 20vh; */
+  background-color: black;
+  width: 100%;
+  padding-bottom: 5.5vh;
+  z-index: -100;
+}
+
+/* The mojority of these media qeries were done to solve the empty space on the right side caused by the animation of article 15 
+and to move the position of this element */
+@media only screen and (max-width: 1421px) {
+  .art15 .div1Art15 {
+    width: 910px;
+  }
+}
+@media only screen and (max-width: 1096px) {
+  .art15 {
+    height: 108vh;
+  }
+}
+@media only screen and (max-width: 998px) {
+  .art15 {
+    height: 118vh;
+  }
+}
+@media only screen and (min-width: 1421px) {
+  .art15 {
+    /*height: 92vh;*/
+  }
+  .art15 .divBottomArt15 {
+    margin-top: 12vh;
+  }
+  .art15 .div1Art15 {
+    margin-left: 51vw;
+  }
+}
+@media only screen and (min-width: 1448px) {
+  .art15 {
+    /* height: 92vh;*/
+  }
+  .art15 .divBottomArt15 {
+    margin-top: 12vh;
+  }
+  .art15 .div1Art15 {
+    margin-left: 51vw;
+    width: 920px !important;
+  }
+}
+@media only screen and (min-width: 1561px) {
+  .art15 {
+    height: 92vh;
+  }
+  .art15 .divBottomArt15 {
+    margin-top: 12vh;
+  }
+  .art15 .div1Art15 {
+    margin-left: 51vw;
+    width: 990px !important;
+  }
+}
+@media only screen and (min-width: 1684px) {
+  .art15 {
+    height: 92vh;
+  }
+  .art15 .divBottomArt15 {
+    margin-top: 12vh;
+  }
+  .art15 .div1Art15 {
+    margin-left: 51vw;
+    width: 1135px !important;
+  }
+}
+/* https://getbootstrap.com/docs/5.0/layout/breakpoints/ */
+/*
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+*/
+@media only screen and (max-width: 576px) {
+  .art1 h2 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+  }
+  .art1 p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 0.84rem;
+  }
+  .art1 .btnRsvp {
+    padding: 7px 36px;
+  }
+  .art2 .firstDivArt2 .p1Art2 {
+    font-size: 2rem;
+  }
+  .art2 .p2Art2 {
+    font-size: 0.9rem;
+  }
+  .art2 .p3Number {
+    font-size: 3rem;
+  }
+  .art2 div.rightSecondDivArt2 > img {
+    height: 30vh;
+    margin-left: 5vw;
+    margin-right: 1vw;
+  }
+  .art4 {
+    margin-top: 5vh;
+  }
+  .art5 {
+    margin-top: 10vh;
+  }
+  .art5 .div1Art5 h2 {
+    font-size: 2.2rem;
+  }
+  .art5 .div1Art5 div {
+    width: 92%;
+  }
+  .art5 .div1Art5 p {
+    font-size: 0.9rem;
+    margin-top: 2vh;
+  }
+  .art6 {
+    margin-top: 3vh;
+  }
+  .art7 {
+    margin-top: 4vh;
+  }
+  .art8 {
+    margin-top: 3vh;
+  }
+  .art9 {
+    margin-top: 3vh;
+  }
+  .art9 .imgAction1Art9 {
+    height: 19vh;
+    width: 49vw;
+  }
+  .art9 .div1Art9 {
+    flex-direction: column;
+  }
+  .art9 .pArt9 {
+    width: 75%;
+    font-size: 0.9rem;
+    margin-top: 3vh;
+  }
+  .art10 .imgAction1Art10 {
+    height: 20vh;
+  }
+  .art11 .div1Art11 {
+    flex-direction: column;
+    width: 90%;
+  }
+  .art11 .div1Art11 .leftDiv1Art11 h2 {
+    width: 80%;
+  }
+  .art11 .div1Art11 .rightDiv1Art11 {
+    width: 80%;
+  }
+  .art12 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .art12 .div1Art12 {
+    flex-direction: column;
+    width: 95%;
+  }
+  .art12 .div1Art12 .imgGoldenBear {
+    height: 65vh;
+    order: 1;
+  }
+  .art12 .div1Art12 .imgGoldenBear2 {
+    margin-top: -6vh;
+    z-index: 1;
+    order: 2;
+    height: 40vh;
+  }
+  .art12 .div1Art12 .imgCalifornication {
+    margin-top: 93vh;
+    order: 3;
+    height: 27vh;
+  }
+  .art13 {
+    padding-top: 11vh;
+  }
+  .art13 .div1Art13 {
+    flex-direction: column;
+  }
+  .art13 .div1Art13 .leftDiv1Art13 h2 {
+    width: 80%;
+  }
+  .art13 .div1Art13 .rightDiv1Art13 {
+    width: 90%;
+  }
+  .art13 .div1Art13 .rightDiv1Art13 .topPArt13 {
+    width: 100%;
+  }
+  .art14 .div1Art14 {
+    flex-direction: column;
+  }
+  .art14 .div1Art14 .imgPoppyBear {
+    height: 40vh;
+    margin-right: 0;
+    z-index: 1;
+  }
+  .art14 .div1Art14 .imgRoseBear {
+    height: 55vh;
+    margin-top: -5vh;
+  }
+  .art14 .div1Art14 {
+    width: 100%;
+  }
+  .artPlaceHolder {
+    height: 9vh;
+  }
+  .art15 {
+    height: 80vh;
+    /* margin-top: 3vh;*/
+  }
+  .art15 .div1Art15 {
+    font-size: 3rem;
+    height: 75px;
+    margin-left: 16vw;
+    margin-top: 26vh;
+    width: 855px;
+  }
+  .art15 .div2Art15 {
+    width: 72%;
+    margin-top: 23vh;
+    margin-left: 4vh;
+  }
+  .art15 .div2Art15 .btnRsvp {
+    padding: 7px 36px;
+  }
+  footer .divLeftFooter {
+    margin-top: 12vh;
+    margin-left: 4vh;
+  }
+  footer .divRightFooter {
+    margin-right: 4vh;
+  }
+  footer .divLeftFooter .secondDivLeftFooter,
+  footer .divLeftFooter .thirdDivLeftFooter {
+    margin-top: 2vh;
+    font-size: 0.9rem;
+  }
+  footer .divRightFooter .firstDivRightFooter img {
+    height: 3vh;
+  }
+  footer .divRightFooter .secondDivRightFooter img {
+    height: 2vh;
+    margin-top: 1vh;
+    margin-left: 2vw;
+  }
+}
